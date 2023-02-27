@@ -1,0 +1,135 @@
+#section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.885);
+  overflow-y: hidden;
+}
+#section .bcgrimg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1111;
+  mix-blend-mode: darken;
+}
+#section .ingredients {
+  z-index: 999;
+}
+#section .ingredients .erkey {
+  opacity: 1;
+  visibility: hidden;
+}
+#section .ingredients .erkey.active {
+  opacity: 1;
+  visibility: visible;
+}
+#section .ingredients .crust {
+  width: 100px;
+  height: 150px;
+  background-color: rgb(19, 215, 19);
+  text-align: center;
+  position: relative;
+}
+#section .ingredients .crust .dropcrust {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 300px;
+  height: 99.7vh;
+  background-color: rgb(19, 215, 19);
+  transition: 0.3s;
+}
+#section .ingredients .crust .dropcrust .circle {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  background-color: #e9e4e4;
+  box-shadow: 10px 0px 20px 1px;
+  border: 7px solid rgba(230, 140, 38, 0.3137254902);
+}
+#section .ingredients .crust .dropcrust .circle1 {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 50%;
+  background-color: #d4aa6a;
+  box-shadow: 10px 0px 20px 1px;
+  border: 7px solid rgba(230, 140, 38, 0.3137254902);
+}
+#section .ingredients .crust img {
+  width: 80px;
+}
+#section .ingredients .sauce {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(70, 70, 255);
+  position: relative;
+}
+#section .ingredients .sauce .dropsauce {
+  position: absolute;
+  top: -100%;
+  left: 100%;
+  width: 300px;
+  height: 99.7vh;
+  background-color: rgb(70, 70, 255);
+}
+#section .ingredients .sauce .dropsauce .img1 {
+  margin-top: 100px;
+}
+#section .ingredients .sauce .dropsauce .img1 img {
+  width: 250px;
+}
+#section .ingredients .sauce .dropsauce .img1 h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#section .ingredients .sauce .dropsauce .img2 {
+  margin-top: 100px;
+}
+#section .ingredients .sauce .dropsauce .img2 img {
+  width: 200px;
+}
+#section .ingredients .sauce .dropsauce .img2 h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#section .ingredients .sauce img {
+  width: 80px;
+}
+#section .ingredients .cheese {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  background-color: blueviolet;
+}
+#section .ingredients .cheese img {
+  width: 80px;
+  mix-blend-mode: darken;
+}
+#section .ingredients .meats {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  background-color: rgb(234, 234, 28);
+}
+#section .ingredients .meats img {
+  width: 80px;
+}
+#section .ingredients .veggies {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  background-color: orange;
+}
+#section .ingredients .veggies img {
+  width: 80px;
+  mix-blend-mode: darken;
+}/*# sourceMappingURL=style.css.map */
